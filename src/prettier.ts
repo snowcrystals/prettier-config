@@ -1,4 +1,6 @@
-const config = {
+import type { Config } from "prettier";
+
+const prettierConfig: Config = {
 	endOfLine: "auto",
 	printWidth: 150,
 	quoteProps: "as-needed",
@@ -18,4 +20,4 @@ const config = {
 	]
 };
 
-module.exports = config;
+export default prettierConfig;

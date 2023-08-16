@@ -1,37 +1,34 @@
 {
-	"name": "template",
+	"name": "@snowcrystals/config",
 	"version": "0.0.1",
-	"description": "A template used for every single repository in this organization 📏",
+	"description": "Eslint, Prettier and TypeScript configs in one package ⚙️",
 	"author": "ijsKoud <github@ijskoud.dev>",
 	"license": "MIT",
 	"type": "module",
-	"main": "dist/index.cjs",
-	"module": "dist/index.js",
-	"types": "dist/index.d.ts",
 	"exports": {
-		"import": "./dist/index.js",
-		"require": "./dist/index.cjs",
-		"types": "./dist/index.d.ts"
+		"prettier.js": {
+			"import": "./dist/prettier.js",
+			"require": "./dist/prettier.cjs",
+			"types": "./dist/prettier.d.ts"
+		}
 	},
 	"files": [
 		"dist/"
 	],
-	"homepage": "https://github.com/snowcrystals/template",
+	"homepage": "https://github.com/snowcrystals/config",
 	"scripts": {
 		"build": "tsup src",
 		"build:watch": "tsc --watch",
-		"start:dev": "nodemon ./dist",
-		"start": "node ./dist",
-		"lint": "eslint src",
 		"postinstall": "is-ci || husky install",
+		"lint": "eslint src",
 		"prepack": "pinst --disable",
 		"postpack": "pinst --enable",
-		"bump": "cliff-jumper",
-		"docs": "typedoc-json-parser"
+		"bump": "cliff-jumper"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-angular": "^17.7.0",
+		"@favware/cliff-jumper": "^2.1.1",
 		"@sapphire/eslint-config": "^4.4.3",
 		"@sapphire/prettier-config": "^1.4.5",
 		"@sapphire/ts-config": "^4.0.1",
@@ -47,10 +44,7 @@
 		"nodemon": "^3.0.1",
 		"pinst": "^3.0.0",
 		"prettier": "^3.0.1",
-		"tsup": "^7.2.0",
-		"typedoc": "^0.24.8",
-		"typedoc-json-parser": "^8.2.0",
-		"typescript": "5.1.6"
+		"tsup": "^7.2.0"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
@@ -58,8 +52,5 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"packageManager": "yarn@3.6.1",
-	"dependencies": {
-		"@favware/cliff-jumper": "^2.1.1"
-	}
+	"packageManager": "yarn@3.6.1"
 }
