@@ -1,8 +1,8 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png" width="100px" />
-    <h1>@snowcrystals/template</h1>
+    <h1>@snowcrystals/config</h1>
   
-  <p>A template used for every single repository in this organization ✏️</p>
+  <p>Eslint, Prettier and TypeScript configs in one package ⚙️</p>
   
   <p align="center">
     <a href="/">
