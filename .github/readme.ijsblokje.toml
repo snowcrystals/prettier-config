@@ -1,7 +1,7 @@
 [project]
 icon = "https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png"
 icon_width = "100px"
-version = "0.0.1"
+version = "1.0.0"
 
 [variables]
 information = "To use this config, create a `.prettierrc.js` file and import it like so: `module.exports = require('@snowcrystals/prettier-config');`"
