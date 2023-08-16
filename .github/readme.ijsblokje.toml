@@ -4,5 +4,5 @@ icon_width = "100px"
 version = "0.0.1"
 
 [variables]
-information = "Just a template, like an uncolored drawing. That's all. ✏️"
-installation = "To use this template, you will need the following: `yarn` and `node >= 18.16.0`."
+information = "To use this config, create a `.prettierrc.js` file and import it like so: `module.exports = require('@snowcrystals/prettier-config');`"
+installation = "```\nnpm i -D @snowcrystals/prettier-config\nyarn add -D @snowcrystals/prettier-config```"
