@@ -1,0 +1,65 @@
+{
+	"name": "template",
+	"version": "0.0.1",
+	"description": "A template used for every single repository in this organization 📏",
+	"author": "ijsKoud <github@ijskoud.dev>",
+	"license": "MIT",
+	"type": "module",
+	"main": "dist/index.cjs",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.js",
+		"require": "./dist/index.cjs",
+		"types": "./dist/index.d.ts"
+	},
+	"files": [
+		"dist/"
+	],
+	"homepage": "https://github.com/snowcrystals/template",
+	"scripts": {
+		"build": "tsup src",
+		"build:watch": "tsc --watch",
+		"start:dev": "nodemon ./dist",
+		"start": "node ./dist",
+		"lint": "eslint src",
+		"postinstall": "is-ci || husky install",
+		"prepack": "pinst --disable",
+		"postpack": "pinst --enable",
+		"bump": "cliff-jumper",
+		"docs": "typedoc-json-parser"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.7.1",
+		"@commitlint/config-angular": "^17.7.0",
+		"@sapphire/eslint-config": "^4.4.3",
+		"@sapphire/prettier-config": "^1.4.5",
+		"@sapphire/ts-config": "^4.0.1",
+		"@types/node": "^18.17.5",
+		"@typescript-eslint/eslint-plugin": "^5.62.0",
+		"@typescript-eslint/parser": "^5.62.0",
+		"eslint": "^8.47.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"husky": "^8.0.3",
+		"is-ci": "^3.0.1",
+		"lint-staged": "^13.2.3",
+		"nodemon": "^3.0.1",
+		"pinst": "^3.0.0",
+		"prettier": "^3.0.1",
+		"tsup": "^7.2.0",
+		"typedoc": "^0.24.8",
+		"typedoc-json-parser": "^8.2.0",
+		"typescript": "5.1.6"
+	},
+	"engines": {
+		"node": ">= v18.16.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"packageManager": "yarn@3.6.1",
+	"dependencies": {
+		"@favware/cliff-jumper": "^2.1.1"
+	}
+}
