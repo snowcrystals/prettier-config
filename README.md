@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png" width="100px" />
     <h1>@snowcrystals/config</h1>
   
-  <p>Eslint, Prettier and TypeScript configs in one package ⚙️</p>
+  <p>Prettier config compiled to cjs and mjs ⚙️</p>
   
   <p align="center">
     <a href="/">
