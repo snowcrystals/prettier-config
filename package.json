@@ -1,21 +1,17 @@
 {
-	"name": "@snowcrystals/config",
+	"name": "@snowcrystals/prettier-config",
 	"version": "0.0.1",
-	"description": "Eslint, Prettier and TypeScript configs in one package ⚙️",
+	"description": "Prettier config compiled to cjs and mjs ⚙️",
 	"author": "ijsKoud <github@ijskoud.dev>",
 	"license": "MIT",
 	"type": "module",
-	"exports": {
-		"prettier.js": {
-			"import": "./dist/prettier.js",
-			"require": "./dist/prettier.cjs",
-			"types": "./dist/prettier.d.ts"
-		}
-	},
+	"module": "./dist/prettier.js",
+	"main": "./dist/prettier.cjs",
+	"types": "./dist/prettier.d.ts",
 	"files": [
 		"dist/"
 	],
-	"homepage": "https://github.com/snowcrystals/config",
+	"homepage": "https://github.com/snowcrystals/prettier-config",
 	"scripts": {
 		"build": "tsup src",
 		"build:watch": "tsc --watch",
