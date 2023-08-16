@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png" width="100px" />
-    <h1>@snowcrystals/config</h1>
+    <h1>@snowcrystals/prettier-config</h1>
   
   <p>Prettier config compiled to cjs and mjs ⚙️</p>
   
@@ -29,11 +29,13 @@
 
 ## Information
 
-Just a template, like an uncolored drawing. That's all. ✏️
+To use this config, create a `.prettierrc.js` file and import it like so: `module.exports = require('@snowcrystals/prettier-config');`
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 18.16.0`.
+```
+npm i -D @snowcrystals/prettier-config
+yarn add -D @snowcrystals/prettier-config```
 
 ## Author
 
