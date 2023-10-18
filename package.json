@@ -21,6 +21,9 @@
 		"postpack": "pinst --enable",
 		"bump": "cliff-jumper"
 	},
+	"resolutions": {
+		"load-tsconfig": "^0.2.5"
+	},
 	"devDependencies": {
 		"@favware/cliff-jumper": "^2.2.0",
 		"@sapphire/eslint-config": "^5.0.2",
