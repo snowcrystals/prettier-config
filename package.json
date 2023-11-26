@@ -28,9 +28,9 @@
 		"@favware/cliff-jumper": "^2.2.3",
 		"@sapphire/eslint-config": "^5.0.2",
 		"@sapphire/ts-config": "^5.0.0",
-		"@types/node": "^20.9.2",
-		"@typescript-eslint/eslint-plugin": "^6.11.0",
-		"@typescript-eslint/parser": "^6.11.0",
+		"@types/node": "^20.10.0",
+		"@typescript-eslint/eslint-plugin": "^6.12.0",
+		"@typescript-eslint/parser": "^6.12.0",
 		"eslint": "^8.54.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.1",
@@ -39,7 +39,7 @@
 		"lint-staged": "^15.1.0",
 		"pinst": "^3.0.0",
 		"prettier": "^3.1.0",
-		"tsup": "^8.0.0"
+		"tsup": "^8.0.1"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
