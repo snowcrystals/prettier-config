@@ -25,7 +25,7 @@
 		"load-tsconfig": "^0.2.5"
 	},
 	"devDependencies": {
-		"@favware/cliff-jumper": "^2.2.3",
+		"@favware/cliff-jumper": "^3.0.1",
 		"@sapphire/eslint-config": "^5.0.3",
 		"@sapphire/ts-config": "^5.0.0",
 		"@types/node": "^20.11.24",
