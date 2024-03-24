@@ -5,4 +5,4 @@ version = "1.0.0"
 
 [variables]
 information = "To use this config, create a `.prettierrc.js` file and import it like so: `module.exports = require('@snowcrystals/prettier-config');`"
-installation = "```\nnpm i -D @snowcrystals/prettier-config\nyarn add -D @snowcrystals/prettier-config\n```"
+installation = "```\nnpm i -D @snowcrystals/prettier-config\nyarn add -D @snowcrystals/prettier-config\npnpm add -D @snowcrystals/prettier-config```"
