@@ -36,7 +36,8 @@ To use this config, create a `.prettierrc.js` file and import it like so: `modul
 ```
 npm i -D @snowcrystals/prettier-config
 yarn add -D @snowcrystals/prettier-config
-pnpm add -D @snowcrystals/prettier-config```
+pnpm add -D @snowcrystals/prettier-config
+```
 
 ## Author
 
