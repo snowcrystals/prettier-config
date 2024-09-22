@@ -29,13 +29,13 @@
 		"@sapphire/ts-config": "^5.0.1",
 		"@snowcrystals/eslint-config": "^1.0.2",
 		"@types/node": "^20.16.5",
-		"eslint": "^8.57.0",
+		"eslint": "^8.57.1",
 		"husky": "^9.1.6",
 		"is-ci": "^3.0.1",
 		"lint-staged": "^15.2.10",
 		"pinst": "^3.0.0",
 		"prettier": "^3.3.3",
-		"tsup": "^8.2.4"
+		"tsup": "^8.3.0"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
