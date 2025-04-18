@@ -29,7 +29,7 @@
 		"@sapphire/ts-config": "^5.0.1",
 		"@snowcrystals/eslint-config": "^1.0.2",
 		"@types/node": "^22.14.1",
-		"eslint": "^8.57.1",
+		"eslint": "^9.25.0",
 		"husky": "^9.1.7",
 		"is-ci": "^4.1.0",
 		"lint-staged": "^15.5.1",
